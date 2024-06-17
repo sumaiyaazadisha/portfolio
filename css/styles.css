@@ -4762,3 +4762,11 @@ td:last-child {
 	clip: rect(0, 0, 0, 0);
 	border: 0;
 }
+@keyframes beepingText {
+	0%, 100% { color: black; }
+	50% { color:khaki }
+}
+
+.beeping-text {
+	animation: beepingText 4s infinite;
+}
